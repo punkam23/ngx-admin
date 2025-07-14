@@ -37,6 +37,7 @@ import { NebularFormInputsComponent } from './form-inputs/nebular-form-inputs.co
 import { NebularSelectComponent } from './form-inputs/nebular-select/nebular-select.component';
 import { CalendarKitFullCalendarShowcaseComponent } from './calendar-kit/calendar-kit.component';
 import { CalendarKitMonthCellComponent } from './calendar-kit/month-cell/month-cell.component';
+import {CalendarAriaLabelDirective} from './calendar/calendar-aria-label.directive';
 
 const COMPONENTS = [
   ExtraComponentsComponent,
@@ -55,6 +56,7 @@ const COMPONENTS = [
   NebularSelectComponent,
   CalendarKitFullCalendarShowcaseComponent,
   CalendarKitMonthCellComponent,
+  CalendarAriaLabelDirective,
 ];
 
 const MODULES = [
