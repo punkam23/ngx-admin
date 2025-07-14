@@ -5,5 +5,11 @@
 @include nb-install-component() {
   .menu-sidebar ::ng-deep .scrollable {
     padding-top: nb-theme(layout-padding-top);
+
+    ul {
+      .menu-group{
+        color: var(--list-item-text-color);
+      }
+    }
   }
 }
