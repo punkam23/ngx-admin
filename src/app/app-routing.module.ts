@@ -6,8 +6,8 @@ import {
   NbLogoutComponent,
   NbRegisterComponent,
   NbRequestPasswordComponent,
-  NbResetPasswordComponent,
 } from '@nebular/auth';
+import {CustomResetPasswordComponent} from './pages/auth/reset-password/custom-reset-password.component';
 
 export const routes: Routes = [
   {
@@ -41,7 +41,7 @@ export const routes: Routes = [
       },
       {
         path: 'reset-password',
-        component: NbResetPasswordComponent,
+        component: CustomResetPasswordComponent,
       },
     ],
   },

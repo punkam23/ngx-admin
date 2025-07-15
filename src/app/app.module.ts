@@ -20,9 +20,10 @@ import {
   NbToastrModule,
   NbWindowModule,
 } from '@nebular/theme';
+import {CustomResetPasswordComponent} from './pages/auth/reset-password/custom-reset-password.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, CustomResetPasswordComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
